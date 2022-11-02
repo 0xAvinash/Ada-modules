@@ -17,8 +17,8 @@ procedure Main is
             & Integer'Image (R)
         );
 
-       I := R;
-       end Display_Update_Values;
+        I := R;
+    end Display_Update_Values;
 begin
     R := Increment_By (I);
     Display_Update_Values;
